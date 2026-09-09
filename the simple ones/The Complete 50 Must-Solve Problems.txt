@@ -1,0 +1,244 @@
+## 📋 **The Complete 50 Must-Solve Problems for Infosys Specialist Programmer**
+
+I've curated this list based on **actual Infosys coding patterns** and previous year questions. These are **must-practice** problems that cover all the concepts you'll need!
+
+---
+
+## 📊 **Category Breakdown**
+
+| Category | Number | Priority |
+|----------|--------|----------|
+| Arrays | 12 | ⭐⭐⭐⭐⭐ |
+| Strings | 10 | ⭐⭐⭐⭐⭐ |
+| HashMaps/Dictionaries | 7 | ⭐⭐⭐⭐ |
+| Recursion & Backtracking | 5 | ⭐⭐⭐⭐ |
+| Dynamic Programming | 6 | ⭐⭐⭐ |
+| Trees & Graphs | 6 | ⭐⭐⭐ |
+| Math | 4 | ⭐⭐⭐ |
+
+---
+
+## 🎯 **THE 50 MUST-SOLVE PROBLEMS**
+
+### **1-12: ARRAYS (12 Problems)** ⭐⭐⭐⭐⭐
+
+#### **Easy Level (Must be Perfect)**
+| # | Problem | Key Technique | LeetCode Link |
+|---|---------|---------------|---------------|
+| 1 | **Two Sum** | HashMap lookup | [LC 1](https://leetcode.com/problems/two-sum/) |
+| 2 | **Best Time to Buy and Sell Stock** | Greedy, Track min | [LC 121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |
+| 3 | **Contains Duplicate** | HashSet | [LC 217](https://leetcode.com/problems/contains-duplicate/) |
+| 4 | **Maximum Subarray (Kadane's)** | Dynamic Programming | [LC 53](https://leetcode.com/problems/maximum-subarray/) |
+| 5 | **Move Zeroes** | Two-pointer | [LC 283](https://leetcode.com/problems/move-zeroes/) |
+| 6 | **Plus One** | Array manipulation | [LC 66](https://leetcode.com/problems/plus-one/) |
+
+#### **Medium Level (Aim for 80%+)**
+| # | Problem | Key Technique | LeetCode Link |
+|---|---------|---------------|---------------|
+| 7 | **Product of Array Except Self** | Prefix/Suffix arrays | [LC 238](https://leetcode.com/problems/product-of-array-except-self/) |
+| 8 | **Subarray Sum Equals K** | Prefix sum + HashMap | [LC 560](https://leetcode.com/problems/subarray-sum-equals-k/) |
+| 9 | **3Sum** | Two-pointer sorting | [LC 15](https://leetcode.com/problems/3sum/) |
+| 10 | **Find All Duplicates in Array** | Cyclic sort | [LC 442](https://leetcode.com/problems/find-all-duplicates-in-an-array/) |
+| 11 | **Next Permutation** | Array manipulation | [LC 31](https://leetcode.com/problems/next-permutation/) |
+| 12 | **Merge Intervals** | Sorting + Greedy | [LC 56](https://leetcode.com/problems/merge-intervals/) |
+
+---
+
+### **13-22: STRINGS (10 Problems)** ⭐⭐⭐⭐⭐
+
+#### **Easy Level**
+| # | Problem | Key Technique | LeetCode Link |
+|---|---------|---------------|---------------|
+| 13 | **Valid Anagram** | Character count | [LC 242](https://leetcode.com/problems/valid-anagram/) |
+| 14 | **Valid Palindrome** | Two-pointer | [LC 125](https://leetcode.com/problems/valid-palindrome/) |
+| 15 | **Longest Common Prefix** | String comparison | [LC 14](https://leetcode.com/problems/longest-common-prefix/) |
+| 16 | **Reverse String** | Two-pointer | [LC 344](https://leetcode.com/problems/reverse-string/) |
+| 17 | **First Unique Character** | HashMap | [LC 387](https://leetcode.com/problems/first-unique-character-in-a-string/) |
+
+#### **Medium Level**
+| # | Problem | Key Technique | LeetCode Link |
+|---|---------|---------------|---------------|
+| 18 | **Longest Substring Without Repeating** | Sliding window | [LC 3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |
+| 19 | **Group Anagrams** | HashMap sorting | [LC 49](https://leetcode.com/problems/group-anagrams/) |
+| 20 | **String to Integer (atoi)** | Edge case handling | [LC 8](https://leetcode.com/problems/string-to-integer-atoi/) |
+| 21 | **Longest Palindromic Substring** | Expand around center | [LC 5](https://leetcode.com/problems/longest-palindromic-substring/) |
+| 22 | **Multiply Strings** | String multiplication | [LC 43](https://leetcode.com/problems/multiply-strings/) |
+
+---
+
+### **23-29: HASHMAPS/DICTIONARIES (7 Problems)** ⭐⭐⭐⭐
+
+| # | Problem | Key Technique | LeetCode Link |
+|---|---------|---------------|---------------|
+| 23 | **Valid Sudoku** | Row/Column/Box sets | [LC 36](https://leetcode.com/problems/valid-sudoku/) |
+| 24 | **Top K Frequent Elements** | HashMap + Heap | [LC 347](https://leetcode.com/problems/top-k-frequent-elements/) |
+| 25 | **Intersection of Two Arrays II** | HashMap count | [LC 350](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |
+| 26 | **Happy Number** | HashSet cycle detection | [LC 202](https://leetcode.com/problems/happy-number/) |
+| 27 | **Isomorphic Strings** | Character mapping | [LC 205](https://leetcode.com/problems/isomorphic-strings/) |
+| 28 | **Ransom Note** | Character count | [LC 383](https://leetcode.com/problems/ransom-note/) |
+| 29 | **Majority Element** | HashMap / Boyer-Moore | [LC 169](https://leetcode.com/problems/majority-element/) |
+
+---
+
+### **30-34: RECURSION & BACKTRACKING (5 Problems)** ⭐⭐⭐⭐
+
+| # | Problem | Key Technique | LeetCode Link |
+|---|---------|---------------|---------------|
+| 30 | **Generate Parentheses** | Backtracking | [LC 22](https://leetcode.com/problems/generate-parentheses/) |
+| 31 | **Subsets** | Backtracking | [LC 78](https://leetcode.com/problems/subsets/) |
+| 32 | **Combination Sum** | Backtracking (duplicates allowed) | [LC 39](https://leetcode.com/problems/combination-sum/) |
+| 33 | **Permutations** | Backtracking | [LC 46](https://leetcode.com/problems/permutations/) |
+| 34 | **Letter Combinations of a Phone Number** | Backtracking | [LC 17](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) |
+
+---
+
+### **35-40: DYNAMIC PROGRAMMING (6 Problems)** ⭐⭐⭐
+
+| # | Problem | Key Technique | LeetCode Link |
+|---|---------|---------------|---------------|
+| 35 | **Climbing Stairs** | Fibonacci DP | [LC 70](https://leetcode.com/problems/climbing-stairs/) |
+| 36 | **House Robber** | DP optimization | [LC 198](https://leetcode.com/problems/house-robber/) |
+| 37 | **Coin Change** | Unbounded knapsack | [LC 322](https://leetcode.com/problems/coin-change/) |
+| 38 | **Longest Increasing Subsequence** | DP + Binary Search | [LC 300](https://leetcode.com/problems/longest-increasing-subsequence/) |
+| 39 | **Unique Paths** | Grid DP | [LC 62](https://leetcode.com/problems/unique-paths/) |
+| 40 | **Word Break** | DP + Set | [LC 139](https://leetcode.com/problems/word-break/) |
+
+---
+
+### **41-46: TREES & GRAPHS (6 Problems)** ⭐⭐⭐
+
+| # | Problem | Key Technique | LeetCode Link |
+|---|---------|---------------|---------------|
+| 41 | **Binary Tree Inorder Traversal** | Recursion/Iterative | [LC 94](https://leetcode.com/problems/binary-tree-inorder-traversal/) |
+| 42 | **Maximum Depth of Binary Tree** | DFS/BFS | [LC 104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) |
+| 43 | **Validate Binary Search Tree** | Inorder check | [LC 98](https://leetcode.com/problems/validate-binary-search-tree/) |
+| 44 | **Binary Tree Level Order Traversal** | BFS | [LC 102](https://leetcode.com/problems/binary-tree-level-order-traversal/) |
+| 45 | **Lowest Common Ancestor of BST** | BST property | [LC 235](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) |
+| 46 | **Number of Islands** | DFS/BFS grid | [LC 200](https://leetcode.com/problems/number-of-islands/) |
+
+---
+
+### **47-50: MATH (4 Problems)** ⭐⭐⭐
+
+| # | Problem | Key Technique | LeetCode Link |
+|---|---------|---------------|---------------|
+| 47 | **Palindrome Number** | Reversal check | [LC 9](https://leetcode.com/problems/palindrome-number/) |
+| 48 | **Count Primes** | Sieve of Eratosthenes | [LC 204](https://leetcode.com/problems/count-primes/) |
+| 49 | **Roman to Integer** | HashMap mapping | [LC 13](https://leetcode.com/problems/roman-to-integer/) |
+| 50 | **Pow(x, n)** | Binary exponentiation | [LC 50](https://leetcode.com/problems/powx-n/) |
+
+---
+
+## 📈 **Weekly Practice Schedule**
+
+### **Week 1: Arrays + Strings**
+```
+Day 1-2: Problems 1-6 (Easy Arrays)
+Day 3-4: Problems 7-12 (Medium Arrays)
+Day 5-6: Problems 13-17 (Easy Strings)
+Day 7: Problems 18-22 (Medium Strings) + Review
+```
+
+### **Week 2: HashMaps + Recursion**
+```
+Day 8-9: Problems 23-29 (HashMaps)
+Day 10-11: Problems 30-32 (Recursion basics)
+Day 12-13: Problems 33-34 (Backtracking)
+Day 14: Full Mock Test (1 Easy + 1 Medium)
+```
+
+### **Week 3: DP + Trees**
+```
+Day 15-16: Problems 35-37 (DP basics)
+Day 17-18: Problems 38-40 (Advanced DP)
+Day 19-20: Problems 41-44 (Trees)
+Day 21: Problems 45-46 (Graphs) + Review
+```
+
+### **Week 4: Math + Intensive Practice**
+```
+Day 22-23: Problems 47-50 (Math)
+Day 24-26: Re-solve weak areas (daily mocks)
+Day 27-28: Time-bound practice
+Day 29-30: Final revision + Mock tests
+```
+
+---
+
+## 🎯 **How to Solve Each Problem**
+
+### **Step-by-Step Approach:**
+```
+1. ⏰ Time yourself (Easy: 15 mins | Medium: 25 mins)
+2. 📝 Write brute force solution first
+3. 🚀 Optimize (think about time/space complexity)
+4. 🧪 Test with edge cases
+5. 📊 Analyze alternative solutions (LeetCode Discuss)
+6. 🔁 Re-solve after 3 days (spaced repetition)
+```
+
+### **How to Track Progress:**
+| Week | Goal | Checkpoint |
+|------|------|------------|
+| Week 1 | Solved 22 problems | Should solve Easy in <10 mins |
+| Week 2 | Solved 34 problems | Medium problems start to click |
+| Week 3 | Solved 46 problems | Can identify patterns quickly |
+| Week 4 | All 50 solved | Can solve any problem in 20 mins |
+
+---
+
+## 💡 **Pro Tips for Infosys**
+
+1. **Infosys LOVES these topics:**
+   - Array manipulation (rotations, reversals)
+   - String anagrams/palindromes
+   - Basic DP (stairs, coin change)
+   - Matrix traversal (diagonal, spiral)
+
+2. **Most asked Infosys patterns:**
+   - Problem with two arrays
+   - String with character counts
+   - Find missing/duplicate numbers
+
+3. **Don't ignore edge cases:**
+   ```python
+   # Always test with:
+   - Empty input: [], "", None
+   - Single element: [1], "a"
+   - Large values: 1000000000
+   - Negative numbers: [-5, -2, 0]
+   ```
+
+---
+
+## 🏆 **Success Checklist**
+
+- [ ] All 50 problems solved at least once
+- [ ] Each solved within time limit
+- [ ] Can explain solution to someone else
+- [ ] Know time/space complexity for all
+- [ ] Completed 5 full mock tests
+- [ ] Code is clean and well-commented
+
+---
+
+## 📱 **Bonus Resources**
+
+1. **Practice Platforms:**
+   - InterviewBit (Infosys specific)
+   - CodeChef (Beginner problems)
+   - Codewars (Python practice)
+
+2. **Solution Explanations:**
+   - NeetCode.io (Video solutions)
+   - AlgoMonster (Pattern based learning)
+
+3. **Quick Reference:**
+   - Big-O Cheat Sheet
+   - Python/C++/Java syntax flashcards
+
+---
+
+**Pro Tip:** Print this list and **check off each problem** as you solve it. The visual progress will keep you motivated! 🚀
+
+*Would you like me to create a **cheat sheet** with all the important formulas and patterns for these problems, or would you prefer **detailed solutions** for the first 10 problems to get you started?* 😊
